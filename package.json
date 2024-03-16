@@ -9,6 +9,9 @@
     "postinstall": "node tools/copy-webviewer-files.js",
     "lint": "next lint"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "@pdftron/webviewer": "^8.1.0",
     "next": "11.1.2",
